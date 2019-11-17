@@ -44,8 +44,7 @@ while True:
                     except:
                         vk.method('messages.send', {'chat_id': event.chat_id, 'message':'видео не найдено' , 'random_id': 0})
 
-        elif event.type == VkBotEventType.WALL_POST_NEW:
-            print(event)
+        
 
 
 
